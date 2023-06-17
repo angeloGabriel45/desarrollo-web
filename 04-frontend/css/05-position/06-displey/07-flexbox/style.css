@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.padre {
+  background-color: aqua;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hijos {
+  border: 2px solid green;
+  background-color: darkblue;
+  height: 50px;
+  width: 50px;
+}

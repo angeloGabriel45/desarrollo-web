@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: red;
+  margin: 50px;
+  padding: 10px;
+  display: inline-block;
+}
+
+p {
+  background-color: blue;
+  margin: 50px;
+  padding: 10px;
+  display: inline-block;
+}
+
+a {
+  background-color: aqua;
+  display: inline-block;
+}
+
+li {
+  background-color: chocolate;
+}
