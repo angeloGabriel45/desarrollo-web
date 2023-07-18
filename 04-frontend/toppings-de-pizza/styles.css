@@ -1,0 +1,64 @@
+/* estilos generales */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: ´lato´, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vb;
+  text-align: center;
+  background: url(stock-photo-supreme-pizza-lifted-slice-84904912.jpg) no-repeat
+    center center/cover;
+}
+
+/* contenido */
+
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vb;
+  width: 80vb;
+  max-width: 600px;
+  background-color: white;
+  border: 4px solid black;
+}
+
+h1 {
+  font-size: 3rem;
+  width: 100%;
+  margin: 20px 10px;
+}
+
+ul {
+  width: 100%;
+  height: 100%;
+}
+
+.topping {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  margin: 15px 0px;
+}
+
+.fondo-marron {
+  background-color: #aa5822;
+}
+
+.fondo-naranjas {
+  background-color: #ff7b07;
+}
